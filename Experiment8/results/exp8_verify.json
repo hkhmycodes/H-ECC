@@ -1,0 +1,18 @@
+{
+  "n_on_curve_points": 40,
+  "n_inverse_pairs": 40,
+  "oracle_composite_agreement": {
+    "add": 30,
+    "dbl": 15
+  },
+  "triples_verified": [
+    "L1_r3_s0027",
+    "L1_r3_s0048",
+    "L1_r3_s0063",
+    "L1_r3_s0073",
+    "L1_r3_s0079",
+    "L1_r3_s0082",
+    "L1_r3_s0083"
+  ],
+  "failures": 0
+}

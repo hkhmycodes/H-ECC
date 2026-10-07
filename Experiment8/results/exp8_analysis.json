@@ -1,0 +1,419 @@
+{
+  "triples": [
+    {
+      "order_A": {
+        "order": "A",
+        "M_general": 67,
+        "S": 6,
+        "C_one": 7,
+        "C_small": 9,
+        "C_full": 365,
+        "A": 372,
+        "distinct_products": 54,
+        "heuristic": 456.3,
+        "exp7_id": "L1_r3_s0027",
+        "indices": [
+          0,
+          7,
+          8
+        ]
+      },
+      "order_B": {
+        "order": "B",
+        "M_general": 64,
+        "S": 6,
+        "C_one": 7,
+        "C_small": 9,
+        "C_full": 365,
+        "A": 372,
+        "heuristic": 453.3,
+        "exp7_id": "L1_r3_s0027",
+        "indices": [
+          0,
+          7,
+          8
+        ]
+      },
+      "diag": {
+        "S": 6,
+        "M_general": 30,
+        "C_one": 2,
+        "C_small": 2,
+        "C_full": 167,
+        "A": 162,
+        "distinct_monomials": 21,
+        "heuristic": 210.1,
+        "exp7_id": "L1_r3_s0027",
+        "indices": [
+          0,
+          7,
+          8
+        ]
+      }
+    },
+    {
+      "order_A": {
+        "order": "A",
+        "M_general": 67,
+        "S": 6,
+        "C_one": 7,
+        "C_small": 9,
+        "C_full": 365,
+        "A": 372,
+        "distinct_products": 54,
+        "heuristic": 456.3,
+        "exp7_id": "L1_r3_s0048",
+        "indices": [
+          1,
+          7,
+          8
+        ]
+      },
+      "order_B": {
+        "order": "B",
+        "M_general": 64,
+        "S": 6,
+        "C_one": 7,
+        "C_small": 9,
+        "C_full": 365,
+        "A": 372,
+        "heuristic": 453.3,
+        "exp7_id": "L1_r3_s0048",
+        "indices": [
+          1,
+          7,
+          8
+        ]
+      },
+      "diag": {
+        "S": 6,
+        "M_general": 30,
+        "C_one": 2,
+        "C_small": 2,
+        "C_full": 167,
+        "A": 162,
+        "distinct_monomials": 21,
+        "heuristic": 210.1,
+        "exp7_id": "L1_r3_s0048",
+        "indices": [
+          1,
+          7,
+          8
+        ]
+      }
+    },
+    {
+      "order_A": {
+        "order": "A",
+        "M_general": 67,
+        "S": 6,
+        "C_one": 9,
+        "C_small": 14,
+        "C_full": 365,
+        "A": 379,
+        "distinct_products": 54,
+        "heuristic": 457.15,
+        "exp7_id": "L1_r3_s0063",
+        "indices": [
+          2,
+          7,
+          8
+        ]
+      },
+      "order_B": {
+        "order": "B",
+        "M_general": 64,
+        "S": 6,
+        "C_one": 9,
+        "C_small": 14,
+        "C_full": 365,
+        "A": 379,
+        "heuristic": 454.15,
+        "exp7_id": "L1_r3_s0063",
+        "indices": [
+          2,
+          7,
+          8
+        ]
+      },
+      "diag": {
+        "S": 6,
+        "M_general": 30,
+        "C_one": 4,
+        "C_small": 6,
+        "C_full": 167,
+        "A": 168,
+        "distinct_monomials": 21,
+        "heuristic": 210.8,
+        "exp7_id": "L1_r3_s0063",
+        "indices": [
+          2,
+          7,
+          8
+        ]
+      }
+    },
+    {
+      "order_A": {
+        "order": "A",
+        "M_general": 67,
+        "S": 6,
+        "C_one": 9,
+        "C_small": 16,
+        "C_full": 365,
+        "A": 381,
+        "distinct_products": 54,
+        "heuristic": 457.45000000000005,
+        "exp7_id": "L1_r3_s0073",
+        "indices": [
+          3,
+          7,
+          8
+        ]
+      },
+      "order_B": {
+        "order": "B",
+        "M_general": 67,
+        "S": 6,
+        "C_one": 9,
+        "C_small": 16,
+        "C_full": 365,
+        "A": 381,
+        "heuristic": 457.45000000000005,
+        "exp7_id": "L1_r3_s0073",
+        "indices": [
+          3,
+          7,
+          8
+        ]
+      },
+      "diag": {
+        "S": 6,
+        "M_general": 30,
+        "C_one": 3,
+        "C_small": 6,
+        "C_full": 167,
+        "A": 167,
+        "distinct_monomials": 21,
+        "heuristic": 210.75,
+        "exp7_id": "L1_r3_s0073",
+        "indices": [
+          3,
+          7,
+          8
+        ]
+      }
+    },
+    {
+      "order_A": {
+        "order": "A",
+        "M_general": 67,
+        "S": 6,
+        "C_one": 8,
+        "C_small": 20,
+        "C_full": 365,
+        "A": 384,
+        "distinct_products": 54,
+        "heuristic": 458.0,
+        "exp7_id": "L1_r3_s0079",
+        "indices": [
+          4,
+          7,
+          8
+        ]
+      },
+      "order_B": {
+        "order": "B",
+        "M_general": 67,
+        "S": 6,
+        "C_one": 8,
+        "C_small": 20,
+        "C_full": 365,
+        "A": 384,
+        "heuristic": 458.0,
+        "exp7_id": "L1_r3_s0079",
+        "indices": [
+          4,
+          7,
+          8
+        ]
+      },
+      "diag": {
+        "S": 6,
+        "M_general": 30,
+        "C_one": 2,
+        "C_small": 7,
+        "C_full": 167,
+        "A": 167,
+        "distinct_monomials": 21,
+        "heuristic": 210.85,
+        "exp7_id": "L1_r3_s0079",
+        "indices": [
+          4,
+          7,
+          8
+        ]
+      }
+    },
+    {
+      "order_A": {
+        "order": "A",
+        "M_general": 67,
+        "S": 6,
+        "C_one": 9,
+        "C_small": 9,
+        "C_full": 372,
+        "A": 381,
+        "distinct_products": 54,
+        "heuristic": 463.75,
+        "exp7_id": "L1_r3_s0082",
+        "indices": [
+          5,
+          7,
+          8
+        ]
+      },
+      "order_B": {
+        "order": "B",
+        "M_general": 67,
+        "S": 6,
+        "C_one": 9,
+        "C_small": 9,
+        "C_full": 372,
+        "A": 381,
+        "heuristic": 463.75,
+        "exp7_id": "L1_r3_s0082",
+        "indices": [
+          5,
+          7,
+          8
+        ]
+      },
+      "diag": {
+        "S": 6,
+        "M_general": 30,
+        "C_one": 3,
+        "C_small": 2,
+        "C_full": 171,
+        "A": 167,
+        "distinct_monomials": 21,
+        "heuristic": 214.35,
+        "exp7_id": "L1_r3_s0082",
+        "indices": [
+          5,
+          7,
+          8
+        ]
+      }
+    },
+    {
+      "order_A": {
+        "order": "A",
+        "M_general": 67,
+        "S": 6,
+        "C_one": 9,
+        "C_small": 11,
+        "C_full": 372,
+        "A": 383,
+        "distinct_products": 54,
+        "heuristic": 464.05,
+        "exp7_id": "L1_r3_s0083",
+        "indices": [
+          6,
+          7,
+          8
+        ]
+      },
+      "order_B": {
+        "order": "B",
+        "M_general": 67,
+        "S": 6,
+        "C_one": 9,
+        "C_small": 11,
+        "C_full": 372,
+        "A": 383,
+        "heuristic": 464.05,
+        "exp7_id": "L1_r3_s0083",
+        "indices": [
+          6,
+          7,
+          8
+        ]
+      },
+      "diag": {
+        "S": 6,
+        "M_general": 30,
+        "C_one": 2,
+        "C_small": 3,
+        "C_full": 171,
+        "A": 167,
+        "distinct_monomials": 21,
+        "heuristic": 214.45000000000002,
+        "exp7_id": "L1_r3_s0083",
+        "indices": [
+          6,
+          7,
+          8
+        ]
+      }
+    }
+  ],
+  "ranking_A": [
+    "L1_r3_s0027",
+    "L1_r3_s0048",
+    "L1_r3_s0063",
+    "L1_r3_s0073",
+    "L1_r3_s0079",
+    "L1_r3_s0082",
+    "L1_r3_s0083"
+  ],
+  "ranking_B": [
+    "L1_r3_s0027",
+    "L1_r3_s0048",
+    "L1_r3_s0063",
+    "L1_r3_s0073",
+    "L1_r3_s0079",
+    "L1_r3_s0082",
+    "L1_r3_s0083"
+  ],
+  "ranking_diag": [
+    "L1_r3_s0027",
+    "L1_r3_s0048",
+    "L1_r3_s0073",
+    "L1_r3_s0063",
+    "L1_r3_s0079",
+    "L1_r3_s0082",
+    "L1_r3_s0083"
+  ],
+  "weights": {
+    "M_general": 1.0,
+    "C_full": 1.0,
+    "C_small": 0.1,
+    "S": 0.8,
+    "A": 0.05
+  },
+  "composite_add": {
+    "M": 21,
+    "S": 6,
+    "C": 12,
+    "A": 31
+  },
+  "composite_dbl": {
+    "M": 24,
+    "S": 9,
+    "C": 21,
+    "A": 34
+  },
+  "jacobian_add": {
+    "M": 11,
+    "S": 5,
+    "C": 0,
+    "A": 13
+  },
+  "jacobian_dbl": {
+    "M": 1,
+    "S": 8,
+    "C": 1,
+    "A": 14
+  }
+}

@@ -1,0 +1,6 @@
+EXP-7 overall summary
+  L1_r2: status=done complete=0 determinate=36/36 indeterminate=0
+  L1_r3: status=done complete=7 determinate=84/84 indeterminate=0
+  L1_r4: status=done complete=21 determinate=126/126 indeterminate=0
+  L2_r2: status=done complete=0 determinate=30/30 indeterminate=0
+  L2_r3: status=done complete=30 determinate=30/30 indeterminate=0

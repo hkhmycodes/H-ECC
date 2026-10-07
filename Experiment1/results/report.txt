@@ -1,0 +1,17 @@
+Experiment 1 - pK arithmetic correctness
+seed = 2
+
+  [PASS] step_0_parameters
+  [PASS] step_4_birational_maps requested=500 attempts=500 successful=500 skipped=0 failed=0
+  [PASS] step_5_generator requested=500 attempts=504 successful=500 skipped=0 failed=0
+  [PASS] step_6_isogonal requested=500 attempts=500 successful=500 skipped=0 failed=0
+  [PASS] step_7_negation requested=500 attempts=500 successful=500 skipped=0 failed=0
+  [PASS] step_8_addition requested=500 attempts=500 successful=500 skipped=0 failed=0
+  [PASS] step_9_doubling requested=500 attempts=500 successful=500 skipped=0 failed=0
+  [PASS] step_10_group_identities requested=200 attempts=200 successful=200 skipped=0 failed=0
+  [PASS] step_11_exceptional
+  [PASS] step_12_abc_hunt
+  [PASS] step_13_special_identities
+
+Total failures recorded: 0
+Overall: PASS

@@ -1,0 +1,296 @@
+{
+  "experiment": "EXP-1",
+  "seed": 2,
+  "python_version": "3.14.7 (tags/v3.14.7:823f032, Aug  5 2026, 10:51:32) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.19045-SP0",
+  "parameters": {
+    "p": 106839527430202782610735740077697524141755216002708025221579380756122101340723,
+    "q": 26709881857550695652683935019424381035438804000677006305394845189030525335181,
+    "u": 5,
+    "v": 1,
+    "w": 7,
+    "p_is_prime": true,
+    "q_is_prime": true,
+    "p_eq_4q_minus_1": true,
+    "F_of_G": 0
+  },
+  "requested_trials": {
+    "N_add": 500,
+    "N_double": 500,
+    "N_neg": 500,
+    "N_assoc": 200,
+    "N_step_45": 500,
+    "N_step_12": 50
+  },
+  "results": [
+    {
+      "name": "step_0_parameters",
+      "checks": [
+        [
+          "p is prime",
+          true
+        ],
+        [
+          "q is prime",
+          true
+        ],
+        [
+          "p = 4q - 1",
+          true
+        ],
+        [
+          "F(D) = 0",
+          true
+        ],
+        [
+          "F(G) = 0",
+          true
+        ],
+        [
+          "D != G",
+          true
+        ],
+        [
+          "[q]G = D via oracle",
+          true
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "name": "step_4_birational_maps",
+      "n_requested": 500,
+      "n_attempts": 500,
+      "n_trials": 500,
+      "n_skipped": 0,
+      "n_failed": 0,
+      "passed": true
+    },
+    {
+      "name": "step_5_generator",
+      "n_requested": 500,
+      "n_attempts": 504,
+      "n_trials": 500,
+      "n_skipped": 0,
+      "n_failed": 0,
+      "passed": true
+    },
+    {
+      "name": "step_6_isogonal",
+      "n_requested": 500,
+      "n_attempts": 500,
+      "n_trials": 500,
+      "n_skipped": 0,
+      "n_failed": 0,
+      "passed": true
+    },
+    {
+      "name": "step_7_negation",
+      "n_requested": 500,
+      "n_attempts": 500,
+      "n_trials": 500,
+      "n_skipped": 0,
+      "n_failed": 0,
+      "passed": true
+    },
+    {
+      "name": "step_8_addition",
+      "n_requested": 500,
+      "n_attempts": 500,
+      "n_trials": 500,
+      "n_skipped": 0,
+      "n_failed": 0,
+      "passed": true
+    },
+    {
+      "name": "step_9_doubling",
+      "n_requested": 500,
+      "n_attempts": 500,
+      "n_trials": 500,
+      "n_skipped": 0,
+      "n_failed": 0,
+      "passed": true
+    },
+    {
+      "name": "step_10_group_identities",
+      "n_requested": 200,
+      "n_attempts": 200,
+      "n_trials": 200,
+      "n_skipped": 0,
+      "n_failed": 0,
+      "passed": true
+    },
+    {
+      "name": "step_11_exceptional",
+      "checks": [
+        [
+          "F(A) = 0",
+          true,
+          true
+        ],
+        [
+          "A in base locus",
+          true,
+          true
+        ],
+        [
+          "F(B) = 0",
+          true,
+          true
+        ],
+        [
+          "B in base locus",
+          true,
+          true
+        ],
+        [
+          "F(C) = 0",
+          true,
+          true
+        ],
+        [
+          "C in base locus",
+          true,
+          true
+        ],
+        [
+          "F(D) = 0",
+          true,
+          true
+        ],
+        [
+          "D in base locus",
+          false,
+          false
+        ],
+        [
+          "F(D*) = 0",
+          true,
+          true
+        ],
+        [
+          "D* in base locus",
+          false,
+          false
+        ],
+        [
+          "F(T0) = 0",
+          true,
+          true
+        ],
+        [
+          "T0 in base locus",
+          false,
+          false
+        ],
+        [
+          "F(T1) = 0",
+          true,
+          true
+        ],
+        [
+          "T1 in base locus",
+          false,
+          false
+        ],
+        [
+          "F(T2) = 0",
+          true,
+          true
+        ],
+        [
+          "T2 in base locus",
+          false,
+          false
+        ],
+        [
+          "F(T3) = 0",
+          true,
+          true
+        ],
+        [
+          "T3 in base locus",
+          false,
+          false
+        ]
+      ],
+      "n_failed": 0,
+      "passed": true
+    },
+    {
+      "name": "step_12_abc_hunt",
+      "n_trials": 150,
+      "n_failed": 0,
+      "per_point": {
+        "A": {
+          "n_constructions": 50,
+          "n_undefined_as_expected": 50,
+          "n_unexpectedly_defined": 0,
+          "n_failed_construction": 0
+        },
+        "B": {
+          "n_constructions": 50,
+          "n_undefined_as_expected": 50,
+          "n_unexpectedly_defined": 0,
+          "n_failed_construction": 0
+        },
+        "C": {
+          "n_constructions": 50,
+          "n_undefined_as_expected": 50,
+          "n_unexpectedly_defined": 0,
+          "n_failed_construction": 0
+        }
+      },
+      "passed": true,
+      "n_requested_per_point": 50
+    },
+    {
+      "name": "step_13_special_identities",
+      "checks": [
+        [
+          "iota(T0) = T0",
+          true,
+          true
+        ],
+        [
+          "iota(T1) = T1",
+          true,
+          true
+        ],
+        [
+          "iota(T2) = T2",
+          true,
+          true
+        ],
+        [
+          "iota(T3) = T3",
+          true,
+          true
+        ],
+        [
+          "2 T0 = D* (pK)",
+          true,
+          true
+        ],
+        [
+          "2 T1 = D* (pK)",
+          true,
+          true
+        ],
+        [
+          "2 T2 = D* (pK)",
+          true,
+          true
+        ],
+        [
+          "2 T3 = D* (pK)",
+          true,
+          true
+        ]
+      ],
+      "n_failed": 0,
+      "passed": true
+    }
+  ],
+  "n_failures": 0
+}

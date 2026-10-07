@@ -1,0 +1,2 @@
+law 08
+certified (S_1 Z_0 - S_0 Z_1 = 0, S_2 Z_0 - S_0 Z_2 = 0 mod (F(P), F(Q))): True

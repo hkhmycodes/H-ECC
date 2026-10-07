@@ -1,0 +1,3 @@
+matrix shape: 756 x 162
+rank        : 153
+nullity     : 9

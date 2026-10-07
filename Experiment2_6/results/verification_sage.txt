@@ -1,0 +1,13 @@
+Sage independent verification of EXP-2/6 (2,3) basis
+============================================================
+law 00:  G1 in I = True,  G2 in I = True,  overall = True
+law 01:  G1 in I = True,  G2 in I = True,  overall = True
+law 02:  G1 in I = True,  G2 in I = True,  overall = True
+law 03:  G1 in I = True,  G2 in I = True,  overall = True
+law 04:  G1 in I = True,  G2 in I = True,  overall = True
+law 05:  G1 in I = True,  G2 in I = True,  overall = True
+law 06:  G1 in I = True,  G2 in I = True,  overall = True
+law 07:  G1 in I = True,  G2 in I = True,  overall = True
+law 08:  G1 in I = True,  G2 in I = True,  overall = True
+============================================================
+all certified: True

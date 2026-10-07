@@ -1,0 +1,43 @@
+==============================================================================
+EXP-3  pK current vs Weierstrass-Jacobian
+       backend = gmp  seeds = [0, 1, 2, 3, 4]
+==============================================================================
+N               : 1000
+N_scalar        : 50
+repeats         : 5   scalar_repeats: 5
+T_M (field mul) : 504.8 ns
+
+Primitive                  pK         WS gen       WS mixed    pK/WS   pK/mix
+------------------------------------------------------------------------------
+addition             23.61 us        8.95 us        6.29 us    2.67x    3.98x
+doubling             27.59 us        7.83 us            ---    3.54x      ---
+negation             14.65 us       353.3 ns            ---   42.68x      ---
+scalar-mul            9.65 ms        3.22 ms        3.08 ms    3.07x    3.29x
+
+Timing normalized by measured field-multiplication baseline:
+  pk_add    :   46.77 T_M
+  ws_add    :   16.81 T_M
+  mix_add   :   11.27 T_M
+  pk_double :   53.45 T_M
+  ws_double :   15.44 T_M
+  pk_neg    :   29.01 T_M
+  ws_neg    :    0.64 T_M
+  pk_scalar : 19219.76 T_M
+  ws_scalar : 6047.22 T_M
+  mix_scalar: 5605.84 T_M
+
+Operation counts (per call):
+  pK add    :  21M +   6S +  12C +   31A
+  WS add    :  11M +   5S +   0C +   13A
+  WS mixed  :   8M +   3S +   0C +   11A
+  pK double :  24M +   9S +  21C +   34A
+  WS double :   1M +   8S +   1C +   14A
+  pK neg    :  15M +   3S +   6C +   19A
+  WS neg    :   0M +   0S +   0C +    0A
+
+Note: operation counts and wall-clock times are two
+independent metrics. The generic pK-vs-WS comparison uses
+the same right-to-left binary double-and-add; the mixed
+scalar-mul baseline is a separate left-to-right traversal
+and is reported as a practical baseline, not as a formula-
+cost control.

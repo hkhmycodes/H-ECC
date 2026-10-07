@@ -1,0 +1,3 @@
+# Python 3.10+
+# Optional (for --field gmp):
+gmpy2>=2.1

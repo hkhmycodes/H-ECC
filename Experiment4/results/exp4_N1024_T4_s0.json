@@ -1,0 +1,23 @@
+{
+  "version": "rev2",
+  "n": 1024,
+  "seed": 0,
+  "repeats": 5,
+  "workload_generation_s": 3.25285,
+  "validation_subset": 20,
+  "validation_passed": true,
+  "oracle_checked": 1024,
+  "oracle_skipped": 0,
+  "oracle_mismatches": 0,
+  "oracle_passed": true,
+  "outputs_identical_across_threads": true,
+  "team_sizes_as_requested": true,
+  "env": {"omp_num_procs": 8, "openmp_macro": 202111, "gmp_version": "6.3.0", "compiler": "16.2.0", "OMP_PROC_BIND": "", "OMP_PLACES": ""},
+  "threads": [4],
+  "rows": [
+    {"kind":"pk","T":1,"team":1,"T_median_s":3.37159,"throughput_ops":303.715,"speedup":1,"efficiency":1,"hash":"be5594159350acb8","identical_to_T1":true,"samples_s":[3.37159,3.36954,3.36536,3.51402,3.81671]},
+    {"kind":"pk","T":4,"team":4,"T_median_s":1.3581,"throughput_ops":753.995,"speedup":2.48258,"efficiency":0.620644,"hash":"be5594159350acb8","identical_to_T1":true,"samples_s":[1.32645,1.36399,1.31565,1.3581,1.56934]},
+    {"kind":"jac","T":1,"team":1,"T_median_s":1.59757,"throughput_ops":640.973,"speedup":1,"efficiency":1,"hash":"b5558bb999863208","identical_to_T1":true,"samples_s":[1.30617,1.89546,1.59757,1.59579,1.75318]},
+    {"kind":"jac","T":4,"team":4,"T_median_s":0.758869,"throughput_ops":1349.38,"speedup":2.1052,"efficiency":0.5263,"hash":"b5558bb999863208","identical_to_T1":true,"samples_s":[0.758869,1.30297,1.01179,0.733217,0.752645]}
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "version": "rev2",
+  "n": 4096,
+  "seed": 0,
+  "repeats": 5,
+  "workload_generation_s": 13.6775,
+  "validation_subset": 20,
+  "validation_passed": true,
+  "oracle_checked": 4096,
+  "oracle_skipped": 0,
+  "oracle_mismatches": 0,
+  "oracle_passed": true,
+  "outputs_identical_across_threads": true,
+  "team_sizes_as_requested": true,
+  "env": {"omp_num_procs": 8, "openmp_macro": 202111, "gmp_version": "6.3.0", "compiler": "16.2.0", "OMP_PROC_BIND": "", "OMP_PLACES": ""},
+  "threads": [1],
+  "rows": [
+    {"kind":"pk","T":1,"team":1,"T_median_s":14.4056,"throughput_ops":284.334,"speedup":1,"efficiency":1,"hash":"86714717b8632d8b","identical_to_T1":true,"samples_s":[13.8349,14.4056,14.6361,13.9341,14.492]},
+    {"kind":"jac","T":1,"team":1,"T_median_s":6.54893,"throughput_ops":625.446,"speedup":1,"efficiency":1,"hash":"e74866756a51ea2b","identical_to_T1":true,"samples_s":[6.75101,6.65115,6.54893,6.46319,6.35607]}
+  ]
+}

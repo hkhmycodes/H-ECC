@@ -104,13 +104,14 @@ This project is released under the MIT License. See `LICENSE` for details.
 If you use this code or data in your work, please cite the accompanying paper:
 
 ```bibtex
-@article{Khayou2026HECC,
-  title   = {A Projective Framework for Inversion-Free Elliptic Curve
-             Cryptography on Isogonal Pivotal Cubics},
-  author  = {Khayou, Hussein},
-  journal = {Designs, Codes and Cryptography},
-  year    = {2026},
-  note    = {Code and data available at
-             \url{https://github.com/hkhmycodes/H-ECC/}}
+@misc{Khayou2026PivotalIsogonalCubics,
+  author       = {Khayou, Hussein},
+  title        = {Pivotal Isogonal Cubics as Elliptic Curves:
+                  Group Law, Addition-Law Spaces, and the
+                  Cost of the Native Plane Embedding},
+  year         = {2026},
+  note         = {Manuscript; accompanying code and
+                  reproducibility artifacts},
+  url          = {https://github.com/hkhmycodes/H-ECC/}
 }
 ```

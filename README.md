@@ -13,9 +13,9 @@ The result is structural, not a speed-up. In a common C backend the best pK form
 ```
 H-ECC/
 ├── pk_opt/               # Article: optimized inversion-free formulas, operation counts,
-│   │                     #   I-centred law, fixed-point translation test, law-space row analysis,
-│   │                     #   C benchmark pK vs. Jacobian
-│   └── reproduce/        # Cross-platform reproduction of the benchmark table
+│                         #   I-centred law, fixed-point translation test, law-space row analysis,
+│                         #   C benchmark pK vs. Jacobian
+│                         # Cross-platform reproduction of the benchmark table
 │                         #   (bench.c, r2.h, aff.h, check2.c, pk_opt_formulas.py, run_check2.sh)
 ├── Experiment1/          # EXP-1: correctness of pK primitives against the Weierstrass oracle
 ├── Experiment2_6/        # EXP-2 / EXP-6: extraction and certification of the (2,3)/(3,2) basis
